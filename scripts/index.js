@@ -12,5 +12,5 @@ async function easterEggLoad() {
 }
 
 async function buttonClicked() {
-    location.href = "./pages/doolhof.html";
+    location.href = "./pages/maze.html";
 }
