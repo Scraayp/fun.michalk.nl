@@ -1,16 +1,5 @@
-const header = document.getElementById("header");
-const header2 = document.getElementById("header2");
-const header3 = document.getElementById("header3");
-
-const delay = ms => new Promise(res => setTimeout(res, ms));
-
-async function easterEggLoad() {
-    delay(1000);
-    header2.innerHTML = "I see you want to try out my easter eggs?"
-    delay(1000);
-
-}
-
+// If the button is clicked, redirect to page
 async function buttonClicked() {
+    await alert("Good Luck!")
     location.href = "./pages/maze";
 }
